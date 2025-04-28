@@ -137,6 +137,12 @@
       <submenu title="$$STR_EDT_TOG_EXT_MNMAP$$Toggle Extended Minimap" accelerator="X">toggleExtendedMinimap()</submenu>
       <submenu title="$$STR_EDT_TOG_FOW$$Toggle Fog of War" accelerator="F">fog()</submenu>
       <submenu title="$$STR_EDT_TOG_BLKMAP$$Toggle Blackmap" accelerator="B">blackmap()</submenu>
+      <submenu title="" separator="">
+      </submenu>	
+      <submenu title="$$STR_TECHTREE_SHORT$$Open TechTree">openTechTree()</submenu>
+      <!--<submenu title="$$STR_EDT_XSD$$XS Debugger">gadgetToggle("XSDebugger")</submenu>-->
+      <!--<submenu title="AI Debugger">AIDebugInfoToggle</submenu>-->
+      <submenu title="Audio Browser" accelerator="M">gadgetToggle("zplayAudio")</submenu>
     </submenu>
   </gadget>
   <gadget name="ToolBar" type="menu" size1024="0 20 1024 45" background="background\background_dark">
