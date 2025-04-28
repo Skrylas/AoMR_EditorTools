@@ -142,7 +142,8 @@
       <submenu title="$$STR_TECHTREE_SHORT$$Open TechTree">openTechTree()</submenu>
       <!--<submenu title="$$STR_EDT_XSD$$XS Debugger">gadgetToggle("XSDebugger")</submenu>-->
       <!--<submenu title="AI Debugger">AIDebugInfoToggle</submenu>-->
-      <submenu title="Audio Browser" accelerator="M">gadgetToggle("zplayAudio")</submenu>
+      <submenu title="Soundset Audio Browser" accelerator="M">gadgetToggle("zplaySAudio")</submenu>
+      <submenu title="Campaign Audio Browser" accelerator="M">gadgetToggle("zplayCAudio")</submenu>
     </submenu>
   </gadget>
   <gadget name="ToolBar" type="menu" size1024="0 20 1024 45" background="background\background_dark">
