@@ -41,6 +41,10 @@
       </submenu>
       <submenu title="$$STR_EDT_FORBID_UNITTECH$$Forbidden Units/Techs" accelerator="R">gadgetReal("ForbiddenUnitsTechsDlg")</submenu>
       <submenu title="$$STR_EDT_DIPLOMACY$$Diplomacy" accelerator="D">gadgetReal("DiplomacyDialog")</submenu>
+      <submenu title="" separator=""></submenu>
+      <submenu title="$$STR_EDT_XSD$$XS Debugger">gadgetToggle("XSDebugger")</submenu>
+      <submenu title="AI Debugger">AIDebugInfoToggle</submenu>
+      <submenu title="RM Visualizer">toggleRMVisualizer()</submenu>	
     </submenu>
     <submenu title="$$STR_EDT_WRLD$$World" accelerator="W">
       <submenu title="$$STR_EDT_LIGHTING$$Lighting" accelerator="L">gadgetReal("WorldLightingDialog")</submenu>
@@ -105,6 +109,7 @@
       <submenu title="$$STR_EDT_CAM_LK$$Camera Lock" configindex="cameraMovementLock" accelerator="C">
       </submenu>
       <submenu title="$$STR_EDT_CTS_FREE$$Free Camera" configindex="cameraFree" readonly="" accelerator="B">cameraLimit()</submenu>
+      <submenu title="View Entire World" configindex="cameraFree" readonly="" accelerator="B">viewEntireWorld()</submenu>																																
       <submenu title="$$STR_EDT_STARTSET$$Camera Start Settings">gadgetReal("CameraStartDialog")</submenu>
       <submenu title="" separator="">
       </submenu>
@@ -139,9 +144,7 @@
       <submenu title="$$STR_EDT_TOG_BLKMAP$$Toggle Blackmap" accelerator="B">blackmap()</submenu>
       <submenu title="" separator="">
       </submenu>	
-      <submenu title="$$STR_TECHTREE_SHORT$$Open TechTree">openTechTree()</submenu>
-      <!--<submenu title="$$STR_EDT_XSD$$XS Debugger">gadgetToggle("XSDebugger")</submenu>-->
-      <!--<submenu title="AI Debugger">AIDebugInfoToggle</submenu>-->
+      <submenu title="$$STR_TECHTREE_SHORT$$Open TechTree">openTechTree()</submenu>																
       <submenu title="Soundset Audio Browser" accelerator="M">gadgetToggle("zplaySAudio")</submenu>
       <submenu title="Campaign Audio Browser" accelerator="M">gadgetToggle("zplayCAudio")</submenu>
     </submenu>

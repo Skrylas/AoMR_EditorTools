@@ -1,0 +1,64 @@
+<layout>
+  <gadget name="ObjectInfo" type="gadget" size1024="667 45 1013 543" background="background\editor_background" bevel="" titlebar="$$STR_EDT_OIP$$Object Info" closebutton="" moveable="" closeonesc="">
+    <gadget name="InGameNameIndication" type="formatText" size1024="680 75 729 90" textcentervert="" textcolor="255 255 255" textfont="StatText" textfontsize="12" z="35">$$STR_EDT_OIP_NAME_C$$Name: </gadget>
+    <gadget name="InGameName" type="formatText" size1024="730 75 1000 90" textcentervert="" textcolor="255 255 255" textfont="StatText" textfontsize="12" z="35">
+    </gadget>
+    <gadget name="ProtoNameIndication" type="formatText" size1024="680 90 729 105" textcentervert="" textcolor="255 255 255" textfont="StatText" textfontsize="12" z="35">$$STR_EDT_OIP_PROTONAME_C$$Proto Name: </gadget>
+    <gadget name="ProtoName" type="formatText" size1024="730 90 1000 105" textcentervert="" textcolor="255 255 255" textfont="StatText" textfontsize="12" z="35">
+    </gadget>
+    <gadget name="OwnerIndication" type="formatText" size1024="680 105 729 120" textcentervert="" textcolor="255 255 255" textfont="StatText" textfontsize="12" z="35">$$STR_EDT_OIP_OWNER_C$$Owner: </gadget>
+    <gadget name="Owner" type="formatText" size1024="730 105 1000 120" textcentervert="" textfont="StatText" textfontsize="12" z="35">
+    </gadget>
+    <gadget name="UnitIDIndication" type="formatText" size1024="680 120 729 135" textcentervert="" textcolor="255 255 255" textfont="StatText" textfontsize="12" z="35">$$STR_EDT_OIP_UNITID_C$$Unit ID: </gadget>
+    <gadget name="UnitID" type="formatText" size1024="730 120 1000 135" textcentervert="" textcolor="255 255 255" textfont="StatText" textfontsize="12" z="35">
+    </gadget>
+    <gadget name="LocationIndication" type="formatText" size1024="680 135 729 150" textcentervert="" textcolor="255 255 255" textfont="StatText" textfontsize="12" z="35">$$STR_EDT_OIP_POSITION_C$$Position: </gadget>
+    <gadget name="Location" type="formatText" size1024="730 135 1000 150" textcentervert="" textcolor="255 255 255" textfont="StatText" textfontsize="12" z="35">
+    </gadget>
+    <gadget name="HitpointsIndication" type="formatText" size1024="680 155 729 168" textcentervert="" textfont="StatText" textfontsize="12" z="30">$$STR_EDT_OIP_HP_C$$Hitpoints:</gadget>
+    <gadget name="Hitpoints" type="formatText" size1024="730 155 1000 168" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+    </gadget>
+    <gadget name="ArmorIndication" type="formatText" size1024="680 168 729 181" textcentervert="" textfont="StatText" textfontsize="12" z="30">$$STR_EDT_OIP_ARMOR_C$$Armor:</gadget>
+    <gadget name="Armor" type="formatText" size1024="730 168 1000 181" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+    </gadget>
+    <gadget name="LOSIndication" type="formatText" size1024="680 181 729 194" textcentervert="" textfont="StatText" textfontsize="12" z="30">$$STR_EDT_OIP_LOS_C$$LOS:</gadget>
+    <gadget name="LOS" type="formatText" size1024="730 181 1000 194" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+    </gadget>
+    <gadget name="CostIndication" type="formatText" size1024="680 194 729 207" textcentervert="" textfont="StatText" textfontsize="12" z="30">$$STR_EDT_OIP_COST_C$$Cost:</gadget>
+    <gadget name="Cost" type="formatText" size1024="730 194 1000 207" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+    </gadget>
+    <gadget name="PopIndication" type="formatText" size1024="680 207 729 220" textcentervert="" textfont="StatText" textfontsize="12" z="30">$$STR_EDT_OIP_POPCOST_C$$Population cost:</gadget>
+    <gadget name="Pop" type="formatText" size1024="730 207 1000 220" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+    </gadget>
+    <gadget name="TrainpointsIndication" type="formatText" size1024="680 220 729 233" textcentervert="" textfont="StatText" textfontsize="12" z="30">$$STR_EDT_OIP_TRAINPOINTS_C$$Trainpoints:</gadget>
+    <gadget name="Trainpoints" type="formatText" size1024="730 220 1000 233" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+    </gadget>
+    <gadget name="BuildpointsIndication" type="formatText" size1024="680 220 729 233" textcentervert="" textfont="StatText" textfontsize="12" z="30">$$STR_EDT_OIP_BUILDPOINTS_C$$Buildpoints:</gadget>
+    <gadget name="Buildpoints" type="formatText" size1024="730 220 1000 233" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+    </gadget>
+    <gadget name="VelocityIndication" type="formatText" size1024="680 233 729 246" textcentervert="" textfont="StatText" textfontsize="12" z="30">$$STR_EDT_OIP_Velocity_C$$Velocity:</gadget>
+    <gadget name="Velocity" type="formatText" size1024="730 233 1000 246" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+    </gadget>
+    <gadget name="AttackIndication" type="formatText" size1024="680 246 729 259" textcentervert="" textfont="StatText" textfontsize="12" z="30">$$STR_EDT_OIP_ATK_C$$Attack:</gadget>
+    <gadget name="AttackName" type="formatText" size1024="730 246 1000 259" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+    </gadget>
+    <gadget name="AttackROF" type="formatText" size1024="730 259 1000 272" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+    </gadget>
+    <gadget name="AttackRange" type="formatText" size1024="730 272 1000 285" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+    </gadget>
+    <gadget name="AttackDamage" type="formatText" size1024="730 285 1000 298" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+    </gadget>
+    <gadget name="AttackDamageBonus1" type="formatText" size1024="730 298 1000 311" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+    </gadget>
+    <gadget name="AttackDamageBonus2" type="formatText" size1024="730 311 1000 324" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+    </gadget>
+    <gadget name="AttackDamageBonus3" type="formatText" size1024="730 324 1000 337" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+    </gadget>
+    <gadget name="ObjectNotesLabel" type="formatText" size1024="678 448 766 473" textcentervert="" textfont="StatText" textfontsize="12" z="30" textmarkup="">$$STR_EDT_OIP_OBJ_NOTES$$Object Notes:</gadget>
+    <gadget name="ObjectNotes" type="textBox" background="background\editor_background" sunkenbevel="" textcolor="0 0 0" size1024="766 448 1001 533" multiedit="" textwrapon="" textscrollbar="" nodatareplace="">
+    </gadget>
+    <gadget name="TriggerListIndication" type="formatText" size1024="678 350 766 375" textcentervert="" textfont="StatText" textfontsize="12" z="30" textmarkup="">$$STR_EDT_OIP_TRIGGERS$$Linked Triggers:</gadget>
+    <gadget name="TriggerList" type="list" background="background\editor_background" sunkenbevel="" showselect="" selectedcolor="255 255 255" textfont="StatText" textfontsize="12" buttonsize1024="200 13" scrollvert="" size1024="766 350 1001 435">
+    </gadget>
+  </gadget>
+</layout>
