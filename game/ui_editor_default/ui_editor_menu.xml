@@ -5,13 +5,13 @@
       <submenu title="$$STR_EDT_LD_SCN$$Load Scenario" accelerator="L">uiScenarioLoad</submenu>
       <submenu title="$$STR_EDT_SAV$$Save" accelerator="S">uiSaveScenarioPrompt</submenu>
       <submenu title="$$STR_EDT_SAV_AS$$Save As" accelerator="A">uiSaveScenarioPrompt(true)</submenu>
-      <submenu title="$$STR_EDT_TOMM$$Test on Main Menu" accelerator="T">uiScenarioTestMainMenu</submenu>
+      <submenu title="$$STR_EDT_TOMM$$Test on Main Menu" accelerator="T">gadgetUnReal("zplaySAudio") gadgetUnReal("zplayCAudio") gadgetUnReal("zTechStatus") uiScenarioTestMainMenu </submenu>
       <submenu title="" separator="">
       </submenu>
       <submenu title="$$STR_EDT_SETTINGS$$Game Settings" accelerator="G">uiOpenGameSettings</submenu>
       <submenu title="" separator="">
       </submenu>
-      <submenu title="$$STR_EDT_RTMM$$Return to Main Menu" accelerator="R">leaveGame</submenu>
+      <submenu title="$$STR_EDT_RTMM$$Return to Main Menu" accelerator="R">gadgetUnReal("zplaySAudio") gadgetUnReal("zplayCAudio") gadgetUnReal("zTechStatus") leaveGame</submenu>
       <submenu title="$$STR_EDT_ETW$$Exit to Windows" accelerator="E">exit</submenu>
       <submenu title="" separator="">
       </submenu>
@@ -41,8 +41,8 @@
       </submenu>
       <submenu title="$$STR_EDT_FORBID_UNITTECH$$Forbidden Units/Techs" accelerator="R">gadgetReal("ForbiddenUnitsTechsDlg")</submenu>
       <submenu title="$$STR_EDT_DIPLOMACY$$Diplomacy" accelerator="D">gadgetReal("DiplomacyDialog")</submenu>
-      <submenu title="" separator=""></submenu>
-      <submenu title="$$STR_EDT_XSD$$XS Debugger">gadgetToggle("XSDebugger")</submenu>
+	  <submenu title="" separator=""></submenu>
+	  <submenu title="$$STR_EDT_XSD$$XS Debugger">gadgetToggle("XSDebugger")</submenu>
       <submenu title="AI Debugger">AIDebugInfoToggle</submenu>
       <submenu title="RM Visualizer">toggleRMVisualizer()</submenu>	
     </submenu>
@@ -109,7 +109,7 @@
       <submenu title="$$STR_EDT_CAM_LK$$Camera Lock" configindex="cameraMovementLock" accelerator="C">
       </submenu>
       <submenu title="$$STR_EDT_CTS_FREE$$Free Camera" configindex="cameraFree" readonly="" accelerator="B">cameraLimit()</submenu>
-      <submenu title="View Entire World" configindex="cameraFree" readonly="" accelerator="B">viewEntireWorld()</submenu>																																
+      <submenu title="View Entire World">viewEntireWorld()</submenu>
       <submenu title="$$STR_EDT_STARTSET$$Camera Start Settings">gadgetReal("CameraStartDialog")</submenu>
       <submenu title="" separator="">
       </submenu>
@@ -144,9 +144,10 @@
       <submenu title="$$STR_EDT_TOG_BLKMAP$$Toggle Blackmap" accelerator="B">blackmap()</submenu>
       <submenu title="" separator="">
       </submenu>	
-      <submenu title="$$STR_TECHTREE_SHORT$$Open TechTree">openTechTree()</submenu>																
-      <submenu title="Soundset Audio Browser" accelerator="M">gadgetToggle("zplaySAudio")</submenu>
-      <submenu title="Campaign Audio Browser" accelerator="M">gadgetToggle("zplayCAudio")</submenu>
+      <submenu title="$$STR_TECHTREE_SHORT$$Open TechTree">openTechTree()</submenu>
+      <submenu title="Soundset Audio Browser">gadgetToggle("zplaySAudio")</submenu>
+      <submenu title="Campaign Audio Browser">gadgetToggle("zplayCAudio")</submenu>
+      <submenu title="Upgrade Units">gadgetToggle("zTechStatus")</submenu>
     </submenu>
   </gadget>
   <gadget name="ToolBar" type="menu" size1024="0 20 1024 45" background="background\background_dark">
@@ -258,7 +259,7 @@
       <command>cameraStart</command>
     </gadget>
     <gadget name="PlaytestScenarioNOWButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" foreground="ui\play" size1024="1001 24 1020 41">
-      <command>uiStartScenarioTest</command>
+      <command>gadgetUnReal("zplaySAudio") gadgetUnReal("zplayCAudio") gadgetUnReal("zTechStatus") uiStartScenarioTest</command>
     </gadget>
   </gadget>
   <gadget name="BrushFunctionsTerrain" type="gadget" size1024="0 550 254 768" background="background\editor_background" bevel="" titlebar="$$STR_EDT_PAINT_TERRAIN$$Paint Terrain" hidden="">
@@ -533,7 +534,7 @@
     <gadget name="PlaytestDifficultyLevel" type="textField" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" dropdowndistance="100" size1024="347 272 597 297">$$STR_EDT_DIF_LV$$Difficulty Level:<dropdown command="configSetInt(&quot;playtestDifficultyLevel&quot;, 0)">$$STR_SW_EASY$$Easy</dropdown><dropdown command="configSetInt(&quot;playtestDifficultyLevel&quot;, 1)">$$STR_SW_MODERATE$$Moderate</dropdown><dropdown command="configSetInt(&quot;playtestDifficultyLevel&quot;, 2)">$$STR_SW_HARD$$Hard</dropdown><dropdown command="configSetInt(&quot;playtestDifficultyLevel&quot;, 3)">$$STR_SW_TITAN$$Titan</dropdown><dropdown command="configSetInt(&quot;playtestDifficultyLevel&quot;, 4)">$$STR_SW_EXTREME$$Extreme</dropdown><dropdown command="configSetInt(&quot;playtestDifficultyLevel&quot;, 5)">$$STR_SW_LEGENDARY$$Legendary</dropdown></gadget>
     <gadget name="PlaytestScenarioSeparator" type="gadget" background="controls\menu_separator" size1024="347 322 690 332">
     </gadget>
-    <gadget name="PlaytestScenarioOKButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="530 337 600 362">$$STR_EDT_CAPS_OK$$OK<command>gadgetUnReal("PlaytestDialog") uiStartScenarioTest</command></gadget>
+    <gadget name="PlaytestScenarioOKButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="530 337 600 362">$$STR_EDT_CAPS_OK$$OK<command>gadgetUnReal("PlaytestDialog") gadgetUnReal("zplaySAudio") gadgetUnReal("zplayCAudio") gadgetUnReal("zTechStatus") uiStartScenarioTest</command></gadget>
     <gadget name="PlaytestScenarioCancelButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="610 337 680 362">$$STR_EDT_CANCEL$$Cancel<command>gadgetUnReal("PlaytestDialog")</command></gadget>
   </gadget>
   <gadget name="ScenarioSummaryDialog" type="gadget" size1024="304 153 731 600" background="background\editor_background" bevel="" titlebar="$$STR_EDT_SCN_DAT_SUM$$Scenario Summary" closebutton="" hidden="" moveable="" closeonesc="">

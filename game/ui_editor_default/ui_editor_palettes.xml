@@ -3906,8 +3906,8 @@
 <dropdown command="musicPlaySong(&quot;campaign\mas\3_sec_placeholder.wav&quot;)">campaign\mas\3_sec_placeholder.wav</dropdown>
 </gadget>
 </gadget>
-<gadget name="zplayCAudio" type="gadget" hidden="" size1024="100 200 750 500" closeonesc="" closebutton="" autoClose="" titlebar="Campaign Audio Browser" background="background\editor_background" tilebackground="" bevel="">
-<gadget type="textField" name="zplayFOTTC" size1024="110 230 420 250" textcolor="255 255 255" history="" bevel="">FOTT - Cinematic Sounds
+<gadget name="zplayCAudio" type="gadget" hidden="" size1024="100 240 750 540" closeonesc="" closebutton="" autoClose="" titlebar="Campaign Audio Browser" background="background\editor_background" tilebackground="" bevel="">
+<gadget type="textField" name="zplayFOTTC" size1024="110 270 420 290" textcolor="255 255 255" history="" bevel="">FOTT - Cinematic Sounds
 <dropdown command="musicPlaySong(&quot;campaign\fott\cinematics\fott01\armyarrive.wav&quot;)">campaign\fott\cinematics\fott01\armyarrive.wav</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\fott\cinematics\fott01\monster.mp3&quot;)">campaign\fott\cinematics\fott01\monster.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\fott\cinematics\fott01\music 1.mp3&quot;)">campaign\fott\cinematics\fott01\music 1.mp3</dropdown>
@@ -4279,7 +4279,7 @@
 <dropdown command="musicPlaySong(&quot;campaign\fott\cinematics\fott32_b\waves2.mp3&quot;)">campaign\fott\cinematics\fott32_b\waves2.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\fott\cinematics\fott32_b\wholestatuefall.mp3&quot;)">campaign\fott\cinematics\fott32_b\wholestatuefall.mp3</dropdown>
 </gadget>
-<gadget type="textField" name="zplayTNAC" size1024="430 230 740 250" textcolor="255 255 255" history="" bevel="">TNA - Cinematic Sounds
+<gadget type="textField" name="zplayTNAC" size1024="430 270 740 290" textcolor="255 255 255" history="" bevel="">TNA - Cinematic Sounds
 <dropdown command="musicPlaySong(&quot;campaign\tna\cinematics\tna01\flaps.mp3&quot;)">campaign\tna\cinematics\tna01\flaps.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\tna\cinematics\tna01\music.mp3&quot;)">campaign\tna\cinematics\tna01\music.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\tna\cinematics\tna01\thunder.mp3&quot;)">campaign\tna\cinematics\tna01\thunder.mp3</dropdown>
@@ -4461,7 +4461,7 @@
 <dropdown command="musicPlaySong(&quot;campaign\tna\cinematics\tna12_b\waves.mp3&quot;)">campaign\tna\cinematics\tna12_b\waves.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\tna\cinematics\tna12_b\windbreaker.mp3&quot;)">campaign\tna\cinematics\tna12_b\windbreaker.mp3</dropdown>
 </gadget>
-<gadget type="textField" name="zplayTGGC" size1024="110 260 420 280" textcolor="255 255 255" history="" bevel="">TGG - Cinematic Sounds
+<gadget type="textField" name="zplayTGGC" size1024="110 300 420 320" textcolor="255 255 255" history="" bevel="">TGG - Cinematic Sounds
 <dropdown command="musicPlaySong(&quot;campaign\tgg\cinematics\tgg01\music.mp3&quot;)">campaign\tgg\cinematics\tgg01\music.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\tgg\cinematics\tgg02\campfire.mp3&quot;)">campaign\tgg\cinematics\tgg02\campfire.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\tgg\cinematics\tgg02\wind1.mp3&quot;)">campaign\tgg\cinematics\tgg02\wind1.mp3</dropdown>
@@ -4477,7 +4477,7 @@
 <dropdown command="musicPlaySong(&quot;campaign\tgg\cinematics\tgg04_b\music2.mp3&quot;)">campaign\tgg\cinematics\tgg04_b\music2.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\tgg\cinematics\tgg04_b\waves.mp3&quot;)">campaign\tgg\cinematics\tgg04_b\waves.mp3</dropdown>
 </gadget>
-<gadget type="textField" name="zplayPOTGC" size1024="430 260 740 280" textcolor="255 255 255" history="" bevel="">POTG - Cinematic Sounds
+<gadget type="textField" name="zplayPOTGC" size1024="430 300 740 320" textcolor="255 255 255" history="" bevel="">POTG - Cinematic Sounds
 <dropdown command="musicPlaySong(&quot;campaign\potg\cinematics\cn_cs01_mid_taotie_roar_a1.wav&quot;)">campaign\potg\cinematics\cn_cs01_mid_taotie_roar_a1.wav</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\potg\cinematics\cn_cs01_op_energy_ball_absorbed.wav&quot;)">campaign\potg\cinematics\cn_cs01_op_energy_ball_absorbed.wav</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\potg\cinematics\cn_cs01_op_energy_ball_move_loop1.wav&quot;)">campaign\potg\cinematics\cn_cs01_op_energy_ball_move_loop1.wav</dropdown>
@@ -4874,7 +4874,7 @@
 <dropdown command="musicPlaySong(&quot;campaign\potg\cinematics\potg09_c\potg_09b_chat_08.mp3&quot;)">campaign\potg\cinematics\potg09_c\potg_09b_chat_08.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\potg\cinematics\potg09_c\potg_09b_chat_09.mp3&quot;)">campaign\potg\cinematics\potg09_c\potg_09b_chat_09.mp3</dropdown>
 </gadget>
-<gadget type="textField" name="zplayMBC" size1024="110 290 420 310" textcolor="255 255 255" history="" bevel="">MB - Cinematic Sounds
+<gadget type="textField" name="zplayMBC" size1024="110 330 420 350" textcolor="255 255 255" history="" bevel="">MB - Cinematic Sounds
 <dropdown command="musicPlaySong(&quot;campaign\mythical_battles\cinematics\fre01\fafnir_roar.mp3&quot;)">campaign\mythical_battles\cinematics\fre01\fafnir_roar.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\mythical_battles\cinematics\fre01\music.mp3&quot;)">campaign\mythical_battles\cinematics\fre01\music.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\mythical_battles\cinematics\fre01_b\army.mp3&quot;)">campaign\mythical_battles\cinematics\fre01_b\army.mp3</dropdown>
@@ -4895,7 +4895,7 @@
 <dropdown command="musicPlaySong(&quot;campaign\mythical_battles\cinematics\fre01_b\shortwind.mp3&quot;)">campaign\mythical_battles\cinematics\fre01_b\shortwind.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\mythical_battles\cinematics\fre01_b\swordfighting.mp3&quot;)">campaign\mythical_battles\cinematics\fre01_b\swordfighting.mp3</dropdown>
 </gadget>
-<gadget type="textField" name="zplayTutC" size1024="430 290 740 310" textcolor="255 255 255" history="" bevel="">Tutorial - Cinematic Sounds
+<gadget type="textField" name="zplayTutC" size1024="430 330 740 350" textcolor="255 255 255" history="" bevel="">Tutorial - Cinematic Sounds
 <dropdown command="musicPlaySong(&quot;campaign\tutorial\cinematics\aomspt\ambience 2.mp3&quot;)">campaign\tutorial\cinematics\aomspt\ambience 2.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\tutorial\cinematics\aomspt\ambience.mp3&quot;)">campaign\tutorial\cinematics\aomspt\ambience.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\tutorial\cinematics\aomspt\boatpass.mp3&quot;)">campaign\tutorial\cinematics\aomspt\boatpass.mp3</dropdown>
@@ -4913,7 +4913,7 @@
 <dropdown command="musicPlaySong(&quot;campaign\tutorial\cinematics\ccgre\birth_villager.wav&quot;)">campaign\tutorial\cinematics\ccgre\birth_villager.wav</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\tutorial\cinematics\ccnor\music.wav&quot;)">campaign\tutorial\cinematics\ccnor\music.wav</dropdown>
 </gadget>
-<gadget type="textField" name="zplayDemoC" size1024="110 320 420 340" textcolor="255 255 255" history="" bevel="">Demo - Cinematic Sounds
+<gadget type="textField" name="zplayDemoC" size1024="110 360 420 380" textcolor="255 255 255" history="" bevel="">Demo - Cinematic Sounds
 <dropdown command="musicPlaySong(&quot;campaign\demo\aomspe01\cinematics\arkantos_warcry.wav&quot;)">campaign\demo\aomspe01\cinematics\arkantos_warcry.wav</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\demo\aomspe01\cinematics\bigfire.mp3&quot;)">campaign\demo\aomspe01\cinematics\bigfire.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\demo\aomspe01\cinematics\egyptian_wind.mp3&quot;)">campaign\demo\aomspe01\cinematics\egyptian_wind.mp3</dropdown>
@@ -4930,7 +4930,7 @@
 <dropdown command="musicPlaySong(&quot;campaign\demo\aomspe01\cinematics\unitappear2.mp3&quot;)">campaign\demo\aomspe01\cinematics\unitappear2.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\demo\aomspe01\cinematics\unitappear3.mp3&quot;)">campaign\demo\aomspe01\cinematics\unitappear3.mp3</dropdown>
 </gadget>
-<gadget type="textField" name="zplayAOTG" size1024="430 320 740 340" textcolor="255 255 255" history="" bevel="">AOTG
+<gadget type="textField" name="zplayAOTG" size1024="430 360 740 380" textcolor="255 255 255" history="" bevel="">AOTG
 <dropdown command="musicPlaySong(&quot;aotg\barks\championoffreyr\AOTG_BARK_CHAMPION_OF_FREYR_ADVANTAGE_TAKEN_1.wav&quot;)">aotg\barks\championoffreyr\AOTG_BARK_CHAMPION_OF_FREYR_ADVANTAGE_TAKEN_1.wav</dropdown>
 <dropdown command="musicPlaySong(&quot;aotg\barks\championoffreyr\AOTG_BARK_CHAMPION_OF_FREYR_ADVANTAGE_TAKEN_2.wav&quot;)">aotg\barks\championoffreyr\AOTG_BARK_CHAMPION_OF_FREYR_ADVANTAGE_TAKEN_2.wav</dropdown>
 <dropdown command="musicPlaySong(&quot;aotg\barks\championoffreyr\AOTG_BARK_CHAMPION_OF_FREYR_ADVANTAGE_TAKEN_3.wav&quot;)">aotg\barks\championoffreyr\AOTG_BARK_CHAMPION_OF_FREYR_ADVANTAGE_TAKEN_3.wav</dropdown>
@@ -5425,7 +5425,7 @@
 <dropdown command="musicPlaySong(&quot;aotg\mumbles\zeus\aotg_mumb_zeus_04.wav&quot;)">aotg\mumbles\zeus\aotg_mumb_zeus_04.wav</dropdown>
 <dropdown command="musicPlaySong(&quot;aotg\mumbles\zeus\aotg_mumb_zeus_05.wav&quot;)">aotg\mumbles\zeus\aotg_mumb_zeus_05.wav</dropdown>
 </gadget>
-<gadget type="textField" name="zplayFOTTD" size1024="110 350 420 370" textcolor="255 255 255" history="" bevel="">FOTT - Dialogue
+<gadget type="textField" name="zplayFOTTD" size1024="110 390 420 410" textcolor="255 255 255" history="" bevel="">FOTT - Dialogue
 <dropdown command="musicPlaySong(&quot;campaign\fott\dialogue\agam050.mp3&quot;)">campaign\fott\dialogue\agam050.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\fott\dialogue\agam052.mp3&quot;)">campaign\fott\dialogue\agam052.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\fott\dialogue\agam053.mp3&quot;)">campaign\fott\dialogue\agam053.mp3</dropdown>
@@ -6161,7 +6161,7 @@
 <dropdown command="musicPlaySong(&quot;campaign\fott\dialogue\theo056.mp3&quot;)">campaign\fott\dialogue\theo056.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\fott\dialogue\theo057.mp3&quot;)">campaign\fott\dialogue\theo057.mp3</dropdown>
 </gadget>
-<gadget type="textField" name="zplayFOTTLD" size1024="430 350 740 370" textcolor="255 255 255" history="" bevel="">FOTT - Legacy Dialogue
+<gadget type="textField" name="zplayFOTTLD" size1024="430 390 740 410" textcolor="255 255 255" history="" bevel="">FOTT - Legacy Dialogue
 <dropdown command="musicPlaySong(&quot;campaign\fott_legacy\dialogue\agam050.mp3&quot;)">campaign\fott_legacy\dialogue\agam050.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\fott_legacy\dialogue\agam051.mp3&quot;)">campaign\fott_legacy\dialogue\agam051.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\fott_legacy\dialogue\agam052.mp3&quot;)">campaign\fott_legacy\dialogue\agam052.mp3</dropdown>
@@ -7330,7 +7330,7 @@
 <dropdown command="musicPlaySong(&quot;campaign\fott_legacy\dialogue\theo056.mp3&quot;)">campaign\fott_legacy\dialogue\theo056.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\fott_legacy\dialogue\theo057.mp3&quot;)">campaign\fott_legacy\dialogue\theo057.mp3</dropdown>
 </gadget>
-<gadget type="textField" name="zplayTNAD" size1024="110 380 420 400" textcolor="255 255 255" history="" bevel="">TNA - Dialogue
+<gadget type="textField" name="zplayTNAD" size1024="110 420 420 440" textcolor="255 255 255" history="" bevel="">TNA - Dialogue
 <dropdown command="musicPlaySong(&quot;campaign\tna\dialogue\xaja000.mp3&quot;)">campaign\tna\dialogue\xaja000.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\tna\dialogue\xaja005.mp3&quot;)">campaign\tna\dialogue\xaja005.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\tna\dialogue\xaja010.mp3&quot;)">campaign\tna\dialogue\xaja010.mp3</dropdown>
@@ -7703,7 +7703,7 @@
 <dropdown command="musicPlaySong(&quot;campaign\tna\dialogue\xkro005.mp3&quot;)">campaign\tna\dialogue\xkro005.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\tna\dialogue\xkro010.mp3&quot;)">campaign\tna\dialogue\xkro010.mp3</dropdown>
 </gadget>
-<gadget type="textField" name="zplayTNALD" size1024="430 380 740 400" textcolor="255 255 255" history="" bevel="">TNA - Legacy Dialogue
+<gadget type="textField" name="zplayTNALD" size1024="430 420 740 440" textcolor="255 255 255" history="" bevel="">TNA - Legacy Dialogue
 <dropdown command="musicPlaySong(&quot;campaign\tna_legacy\dialogue\xaja000.mp3&quot;)">campaign\tna_legacy\dialogue\xaja000.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\tna_legacy\dialogue\xaja005.mp3&quot;)">campaign\tna_legacy\dialogue\xaja005.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\tna_legacy\dialogue\xaja010.mp3&quot;)">campaign\tna_legacy\dialogue\xaja010.mp3</dropdown>
@@ -8205,7 +8205,7 @@
 <dropdown command="musicPlaySong(&quot;campaign\tna_legacy\dialogue\xkro005.mp3&quot;)">campaign\tna_legacy\dialogue\xkro005.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\tna_legacy\dialogue\xkro010.mp3&quot;)">campaign\tna_legacy\dialogue\xkro010.mp3</dropdown>
 </gadget>
-<gadget type="textField" name="zplayTGGD" size1024="110 410 420 430" textcolor="255 255 255" history="" bevel="">TGG - Dialogue
+<gadget type="textField" name="zplayTGGD" size1024="110 450 420 470" textcolor="255 255 255" history="" bevel="">TGG - Dialogue
 <dropdown command="musicPlaySong(&quot;campaign\tgg\dialogue\arng500.mp3&quot;)">campaign\tgg\dialogue\arng500.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\tgg\dialogue\arng510.mp3&quot;)">campaign\tgg\dialogue\arng510.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\tgg\dialogue\arng520.mp3&quot;)">campaign\tgg\dialogue\arng520.mp3</dropdown>
@@ -8275,7 +8275,7 @@
 <dropdown command="musicPlaySong(&quot;campaign\tgg\dialogue\skul540.mp3&quot;)">campaign\tgg\dialogue\skul540.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\tgg\dialogue\skul550.mp3&quot;)">campaign\tgg\dialogue\skul550.mp3</dropdown>
 </gadget>
-<gadget type="textField" name="zplayTGGLD" size1024="430 410 740 430" textcolor="255 255 255" history="" bevel="">TGG - Legacy Dialogue
+<gadget type="textField" name="zplayTGGLD" size1024="430 450 740 470" textcolor="255 255 255" history="" bevel="">TGG - Legacy Dialogue
 <dropdown command="musicPlaySong(&quot;campaign\tgg_legacy\dialogue\arng500.mp3&quot;)">campaign\tgg_legacy\dialogue\arng500.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\tgg_legacy\dialogue\arng510.mp3&quot;)">campaign\tgg_legacy\dialogue\arng510.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\tgg_legacy\dialogue\arng520.mp3&quot;)">campaign\tgg_legacy\dialogue\arng520.mp3</dropdown>
@@ -8346,7 +8346,7 @@
 <dropdown command="musicPlaySong(&quot;campaign\tgg_legacy\dialogue\skul540.mp3&quot;)">campaign\tgg_legacy\dialogue\skul540.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\tgg_legacy\dialogue\skul550.mp3&quot;)">campaign\tgg_legacy\dialogue\skul550.mp3</dropdown>
 </gadget>
-<gadget type="textField" name="zplayMBD" size1024="110 440 420 460" textcolor="255 255 255" history="" bevel="">MB - Dialogue
+<gadget type="textField" name="zplayMBD" size1024="110 480 420 500" textcolor="255 255 255" history="" bevel="">MB - Dialogue
 <dropdown command="musicPlaySong(&quot;campaign\mythical_battles\dialogue\dwar001.mp3&quot;)">campaign\mythical_battles\dialogue\dwar001.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\mythical_battles\dialogue\dwar002.mp3&quot;)">campaign\mythical_battles\dialogue\dwar002.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\mythical_battles\dialogue\fols001.mp3&quot;)">campaign\mythical_battles\dialogue\fols001.mp3</dropdown>
@@ -8387,7 +8387,7 @@
 <dropdown command="musicPlaySong(&quot;campaign\mythical_battles\dialogue\regi090.mp3&quot;)">campaign\mythical_battles\dialogue\regi090.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\mythical_battles\dialogue\regi091.mp3&quot;)">campaign\mythical_battles\dialogue\regi091.mp3</dropdown>
 </gadget>
-<gadget type="textField" name="zplayPOTGD" size1024="430 440 740 460" textcolor="255 255 255" history="" bevel="">POTG - Dialogue
+<gadget type="textField" name="zplayPOTGD" size1024="430 480 740 500" textcolor="255 255 255" history="" bevel="">POTG - Dialogue
 <dropdown command="musicPlaySong(&quot;campaign\potg\dialogue\potg01\POTG_01_CHAT_01.mp3&quot;)">campaign\potg\dialogue\potg01\POTG_01_CHAT_01.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\potg\dialogue\potg01\POTG_01_CHAT_02.mp3&quot;)">campaign\potg\dialogue\potg01\POTG_01_CHAT_02.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\potg\dialogue\potg01\POTG_01_CHAT_03.mp3&quot;)">campaign\potg\dialogue\potg01\POTG_01_CHAT_03.mp3</dropdown>
@@ -8796,7 +8796,7 @@
 <dropdown command="musicPlaySong(&quot;campaign\potg\dialogue\potg09_c\POTG_09C_CHAT_08.mp3&quot;)">campaign\potg\dialogue\potg09_c\POTG_09C_CHAT_08.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\potg\dialogue\potg09_c\POTG_09C_CHAT_09.mp3&quot;)">campaign\potg\dialogue\potg09_c\POTG_09C_CHAT_09.mp3</dropdown>
 </gadget>
-<gadget type="textField" name="zplayTutD" size1024="110 470 420 490" textcolor="255 255 255" history="" bevel="">Tutorial - Dialogue
+<gadget type="textField" name="zplayTutD" size1024="110 510 420 530" textcolor="255 255 255" history="" bevel="">Tutorial - Dialogue
 <dropdown command="musicPlaySong(&quot;campaign\tutorial\dialogue\aomspt\athe087.mp3&quot;)">campaign\tutorial\dialogue\aomspt\athe087.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\tutorial\dialogue\aomspt\athe088.mp3&quot;)">campaign\tutorial\dialogue\aomspt\athe088.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\tutorial\dialogue\aomspt\athe089.mp3&quot;)">campaign\tutorial\dialogue\aomspt\athe089.mp3</dropdown>
@@ -8897,7 +8897,7 @@
 <dropdown command="musicPlaySong(&quot;campaign\tutorial\dialogue\mascn\STR_TUT_CHINESE_CHAT_10.mp3&quot;)">campaign\tutorial\dialogue\mascn\STR_TUT_CHINESE_CHAT_10.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\tutorial\dialogue\mascn\STR_TUT_CHINESE_CHAT_11.mp3&quot;)">campaign\tutorial\dialogue\mascn\STR_TUT_CHINESE_CHAT_11.mp3</dropdown>
 </gadget>
-<gadget type="textField" name="zplayDD" size1024="430 470 740 490" textcolor="255 255 255" history="" bevel="">Demo - Dialogue
+<gadget type="textField" name="zplayDD" size1024="430 510 740 530" textcolor="255 255 255" history="" bevel="">Demo - Dialogue
 <dropdown command="musicPlaySong(&quot;campaign\demo\aomspe01\dialogue\athe201.mp3&quot;)">campaign\demo\aomspe01\dialogue\athe201.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\demo\aomspe01\dialogue\athe202.mp3&quot;)">campaign\demo\aomspe01\dialogue\athe202.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\demo\aomspe01\dialogue\athe203.mp3&quot;)">campaign\demo\aomspe01\dialogue\athe203.mp3</dropdown>
@@ -8922,6 +8922,54 @@
 <dropdown command="musicPlaySong(&quot;campaign\demo\aomspe01\dialogue\atls004.mp3&quot;)">campaign\demo\aomspe01\dialogue\atls004.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\demo\aomspe01\dialogue\atls005.mp3&quot;)">campaign\demo\aomspe01\dialogue\atls005.mp3</dropdown>
 <dropdown command="musicPlaySong(&quot;campaign\demo\aomspe01\dialogue\atls006.mp3&quot;)">campaign\demo\aomspe01\dialogue\atls006.mp3</dropdown>
+</gadget>
+</gadget>
+<gadget name="zTechStatus" type="gadget" hidden="" size1024="50 200 220 380" closeonesc="" closebutton="" autoClose="" titlebar="Tech Status Setter" background="background\editor_background" tilebackground="" bevel="">
+<gadget name="zTechHelp" type="button" size1024="52 202 62 214" tooltiptext="Activates Techs while in the editor only." foreground="controls\checkbox_question"></gadget>
+<gadget type="textField" name="ztechWalls" size1024="55 230 200 250" textcolor="255 255 255" history="" bevel="">Walls
+<dropdown command="editorSetTechStatus(StoneWall,False) editorSetTechStatus(FortifiedWall,False) editorSetTechStatus(CitadelWall,False) editorSetTechStatus(BronzeWall,False) editorSetTechStatus(IronWall,False) editorSetTechStatus(OrichalcumWall,False) editorSetTechStatus(GreatWall,False)">Wooden Wall</dropdown>
+<dropdown command="editorSetTechStatus(StoneWall,True)">Stone Wall (G,E,N,A,C)</dropdown>
+<dropdown command="editorSetTechStatus(FortifiedWall,True)">Fortified Wall (G,E,C)</dropdown>
+<dropdown command="editorSetTechStatus(CitadelWall,True)">Citadel Wall (E)</dropdown>
+<dropdown command="editorSetTechStatus(BronzeWall,True)">Bronze Wall (A)</dropdown>
+<dropdown command="editorSetTechStatus(IronWall,True)">Iron Wall (A)</dropdown>
+<dropdown command="editorSetTechStatus(OrichalcumWall,True)">Orichalcum Wall (A)</dropdown>
+<dropdown command="editorSetTechStatus(GreatWall,True)">Great Wall (C)</dropdown>
+</gadget>
+<gadget type="textField" name="ztechTower" size1024="55 260 200 280" tooltiptext="Guard+ has an Age requirement." textcolor="255 255 255" history="" bevel="">Towers
+<dropdown command="editorSetTechStatus(WatchTower,False) editorSetTechStatus(GuardTower,False) editorSetTechStatus(BallistaTower,False) editorSetTechStatus(CrossbowTower,False)">Sentry Tower</dropdown>
+<dropdown command="editorSetTechStatus(WatchTower,True)">Watch Tower (G,E,N,A,C)</dropdown>
+<dropdown command="editorSetTechStatus(GuardTower,True)">Guard Tower (G,E,A,C)</dropdown>
+<dropdown command="editorSetTechStatus(BallistaTower,True)">Ballista Tower (E)</dropdown>
+<dropdown command="editorSetTechStatus(CrossbowTower,True)">Crossbow Tower (C)</dropdown>
+</gadget>
+<gadget type="textField" name="ztechEquip" size1024="55 290 200 310" textcolor="255 255 255" history="" bevel="">Armor
+<dropdown command="editorSetTechStatus(CopperWeapons,False) editorSetTechStatus(CopperArmor,False) editorSetTechStatus(CopperShields,False) editorSetTechStatus(BronzeWeapons,False) editorSetTechStatus(BronzeArmor,False) editorSetTechStatus(BronzeShields,False) editorSetTechStatus(IronWeapons,False) editorSetTechStatus(IronArmor,False) editorSetTechStatus(IronShields,False)">None</dropdown>
+<dropdown command="editorSetTechStatus(CopperWeapons,True) editorSetTechStatus(CopperArmor,True) editorSetTechStatus(CopperShields,True)">Copper All</dropdown>
+<dropdown command="editorSetTechStatus(BronzeWeapons,True) editorSetTechStatus(BronzeArmor,True) editorSetTechStatus(BronzeShields,True)">Bronze All</dropdown>
+<dropdown command="editorSetTechStatus(IronWeapons,True) editorSetTechStatus(IronArmor,True) editorSetTechStatus(IronShields,True)">Iron All</dropdown>
+<dropdown command="editorSetTechStatus(CopperWeapons,True)">Copper Weapons</dropdown>
+<dropdown command="editorSetTechStatus(CopperArmor,True)">Copper Armor</dropdown>
+<dropdown command="editorSetTechStatus(CopperShields,True)">Copper Shields</dropdown>
+<dropdown command="editorSetTechStatus(BronzeWeapons,True)">Bronze Weapons</dropdown>
+<dropdown command="editorSetTechStatus(BronzeArmor,True)">Bronze Armor</dropdown>
+<dropdown command="editorSetTechStatus(BronzeShields,True)">Bronze Shields</dropdown>
+<dropdown command="editorSetTechStatus(IronWeapons,True)">Iron Weapons</dropdown>
+<dropdown command="editorSetTechStatus(IronArmor,True)">Iron Armor</dropdown>
+<dropdown command="editorSetTechStatus(IronShields,True)">Iron Shields</dropdown>
+</gadget>
+<gadget type="textField" name="ztechUnits" size1024="55 320 200 340" textcolor="255 255 255" history="" bevel="">Units
+<dropdown command="editorSetTechStatus(MediumInfantry,False) editorSetTechStatus(MediumArchers,False) editorSetTechStatus(MediumCavalry,False) editorSetTechStatus(MediumAxemen,False) editorSetTechStatus(MediumSpearmen,False) editorSetTechStatus(MediumSlingers,False) editorSetTechStatus(MediumChariotArchers,False) editorSetTechStatus(MediumCamelRiders,False) editorSetTechStatus(MediumWarElephants,False) editorSetTechStatus(HeavyInfantry,False) editorSetTechStatus(HeavyArchers,False) editorSetTechStatus(HeavyCavalry,False) editorSetTechStatus(HeavyAxemen,False) editorSetTechStatus(HeavySpearmen,False) editorSetTechStatus(HeavySlingers,False) editorSetTechStatus(HeavyChariotArchers,False) editorSetTechStatus(HeavyCamelRiders,False) editorSetTechStatus(HeavyWarElephants,False) editorSetTechStatus(HeavyWarships,False) editorSetTechStatus(ChampionInfantry,False) editorSetTechStatus(ChampionArchers,False) editorSetTechStatus(ChampionCavalry,False) editorSetTechStatus(ChampionAxemen,False) editorSetTechStatus(ChampionSpearmen,False) editorSetTechStatus(ChampionSlingers,False) editorSetTechStatus(ChampionChariotArchers,False) editorSetTechStatus(ChampionCamelRiders,False) editorSetTechStatus(ChampionWarElephants,False) editorSetTechStatus(ChampionWarships,False)">Light All</dropdown>
+<dropdown command="editorSetTechStatus(MediumInfantry,True) editorSetTechStatus(MediumArchers,True) editorSetTechStatus(MediumCavalry,True) editorSetTechStatus(MediumAxemen,True) editorSetTechStatus(MediumSpearmen,True) editorSetTechStatus(MediumSlingers,True) editorSetTechStatus(MediumChariotArchers,True) editorSetTechStatus(MediumCamelRiders,True) editorSetTechStatus(MediumWarElephants,True)">Medium All</dropdown>
+<dropdown command="editorSetTechStatus(HeavyInfantry,True) editorSetTechStatus(HeavyArchers,True) editorSetTechStatus(HeavyCavalry,True) editorSetTechStatus(HeavyAxemen,True) editorSetTechStatus(HeavySpearmen,True) editorSetTechStatus(HeavySlingers,True) editorSetTechStatus(HeavyChariotArchers,True) editorSetTechStatus(HeavyCamelRiders,True) editorSetTechStatus(HeavyWarElephants,True) editorSetTechStatus(HeavyWarships,True)">Heavy All</dropdown>
+<dropdown command="editorSetTechStatus(ChampionInfantry,True) editorSetTechStatus(ChampionArchers,True) editorSetTechStatus(ChampionCavalry,True) editorSetTechStatus(ChampionAxemen,True) editorSetTechStatus(ChampionSpearmen,True) editorSetTechStatus(ChampionSlingers,True) editorSetTechStatus(ChampionChariotArchers,True) editorSetTechStatus(ChampionCamelRiders,True) editorSetTechStatus(ChampionWarElephants,True) editorSetTechStatus(ChampionWarships,True)">Champion All</dropdown>
+</gadget>
+<gadget type="textField" name="ztechAge" size1024="55 350 200 370" tooltiptext="Ages cannot be reset currently - Reset with Player Data Age Settings - Default age" textcolor="255 255 255" history="" bevel="">Age
+<dropdown command="editorSetTechStatus(MythicAgeHephaestus,False) editorSetTechStatus(HeroicAgeDionysus,False) editorSetTechStatus(ClassicalAgeAthena,False)">Archaic Age</dropdown>
+<dropdown command="editorSetTechStatus(MythicAgeHephaestus,False) editorSetTechStatus(HeroicAgeDionysus,False) editorSetTechStatus(ClassicalAgeAthena,True)">Classic Age</dropdown>
+<dropdown command="editorSetTechStatus(MythicAgeHephaestus,False) editorSetTechStatus(HeroicAgeDionysus,True)">Heroic Age</dropdown>
+<dropdown command="editorSetTechStatus(MythicAgeHephaestus,True)">Mythic Age</dropdown>
+<gadget name="PDataButton" type="button" size1024="202 352 217 368" tooltiptext="Player Data" foreground="ui\redo"><command>gadgetReal("PlayerEditDlg")</command></gadget>
 </gadget>
 </gadget>
 </layout>

@@ -1,0 +1,53 @@
+<layout>
+  <gadget name="pitchEditor" type="gadget" size1024="0 500 254 768" closeonesc="" background="background\editor_background" bevel="" titlebar="$$STR_EDT_PT$$Pitch Editor" hidden="" moveable="" closebutton="">
+    <gadget name="pitchEdit-maxZoomText" type="textBox" textfont="Arial nodrop" textfontsize="12" textcolor="0 0 0" size1024="44 529 124 545">$$STR_EDT_MX_ZM$$Maximum Zoom</gadget>
+    <gadget name="pitchEdit-maxZoomList" type="textField" scrollvert="" tooltiptext="$$STR_EDT_PT_OPEN$$ZFirst open the camera editor" size1024="44 550 124 570" textcolor="0 0 0" textfont="Arial nobold nodrop" showselect="" textfontsize="12">
+      <dropdown command="cameraMaxZoomSet(85)">$$STR_EDT_NORMAL$$Normal</dropdown>
+      <dropdown command="cameraMaxZoomSet(100)">100</dropdown>
+      <dropdown command="cameraMaxZoomSet(150)">150</dropdown>
+      <dropdown command="cameraMaxZoomSet(175)">175</dropdown>
+      <dropdown command="cameraMaxZoomSet(200)">200</dropdown>
+      <dropdown command="cameraMaxZoomSet(250)">250</dropdown>
+      <dropdown command="cameraMaxZoomSet(300)">300</dropdown>
+      <dropdown command="cameraMaxZoomSet(400)">400</dropdown>
+      <dropdown command="cameraMaxZoomSet(500)">500</dropdown>
+      <dropdown command="cameraMaxZoomSet(750)">750</dropdown>
+      <dropdown command="cameraMaxZoomSet(1000)">1000</dropdown>
+    </gadget>
+    <gadget name="pitchEdit-minZoomText" type="textBox" textfont="Arial nodrop" textfontsize="12" textcolor="0 0 0" size1024="134 529 214 545">$$STR_EDT_MN_ZM$$Minimum Zoom</gadget>
+    <gadget type="button" name="pitchEdit-zoomdefault" size1024="134 550 168 570" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$STR_EDT_LOAD$$Load" textfontsize="12">$$STR_EDT_DEFAULT$$Default<command>cameraMinZoomSet(-1)</command></gadget>
+    <gadget type="button" name="pitchEdit-zoom5" size1024="171 550 191 570" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$STR_EDT_LOAD$$Load" textfontsize="12">5<command>cameraMinZoomSet(5)</command></gadget>
+    <gadget type="button" name="pitchEdit-zoom20" size1024="194 550 214 570" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$STR_EDT_LOAD$$Load" textfontsize="12">20<command>cameraMinZoomSet(20)</command></gadget>
+    <gadget type="button" name="pitchEdit-normalzoom" size1024="44 580 124 600" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$STR_EDT_ZM_N$$Zoom Normal" textfontsize="12">$$STR_EDT_ZM_N$$Zoom Normal<command>cameraZoomReset</command></gadget>
+    <gadget type="button" name="pitchEdit-normalpitch" size1024="134 580 214 600" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$STR_EDT_PT_N47$$Pitch Normal 47" textfontsize="12">$$STR_EDT_PT_N$$Pitch Normal<command>cameraPitchAngle(47) cameraZoomReset</command></gadget>
+    <gadget type="button" name="pitchEdit-defaultOrientation" size1024="94 605 114 625" tooltiptext="$$STR_EDT_CAM_RESET$$Puts the camera in a reasonable orientation." foreground="ui\default_orientation">
+      <command>cameraNice</command>
+    </gadget>
+    <gadget type="button" name="pitchEdit-resetPitch" size1024="119 605 139 625" tooltiptext="$$STR_EDT_PT_ZM_N$$Pitch + Zoom Normal" foreground="ui\zoom_normal">
+      <command>cameraRotate() cameraRotate()</command>
+    </gadget>
+    <gadget type="button" name="pitchEdit-CinematicsButton" size1024="144 605 164 625" tooltiptext="$$STR_EDT_CAM$$Camera Editor" foreground="ui\cinematics">
+      <command>editMode("CameraTracks")</command>
+    </gadget>
+    <gadget name="pitchEdit-PitchText" type="textBox" textfont="Arial nodrop" textfontsize="12" textcolor="0 0 0" size1024="102 635 157 655">$$STR_EDT_CAM_PT$$Camera Pitch</gadget>
+    <gadget type="button" name="pitchEdit-bias-5" size1024="22 660 57 680" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$STR_EDT_CHANGE$$Change" textfontsize="12">5<command>cameraPitchAngle(5) cameraZoomReset cameraMinZoomSet(20)</command></gadget>
+    <gadget type="button" name="pitchEdit-bias-10" size1024="67 660 102 680" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$STR_EDT_CHANGE$$Change" textfontsize="12">10<command>cameraPitchAngle(10) cameraZoomReset cameraMinZoomSet(20)</command></gadget>
+    <gadget type="button" name="pitchEdit-bias-15" size1024="112 660 147 680" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$STR_EDT_CHANGE$$Change" textfontsize="12">15<command>cameraPitchAngle(15) cameraZoomReset</command></gadget>
+    <gadget type="button" name="pitchEdit-bias-25" size1024="157 660 192 680" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$STR_EDT_CHANGE$$Change" textfontsize="12">25<command>cameraPitchAngle(25) cameraZoomReset</command></gadget>
+    <gadget type="button" name="pitchEdit-bias-35" size1024="202 660 237 680" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$STR_EDT_CHANGE$$Change" textfontsize="12">35<command>cameraPitchAngle(35) cameraZoomReset</command></gadget>
+    <gadget type="button" name="pitchEdit-bias-55" size1024="22 685 57 705" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$STR_EDT_CHANGE$$Change" textfontsize="12">55<command>cameraPitchAngle(55) cameraZoomReset</command></gadget>
+    <gadget type="button" name="pitchEdit-bias-70" size1024="67 685 102 705" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$STR_EDT_CHANGE$$Change" textfontsize="12">70<command>cameraPitchAngle(70) cameraZoomReset</command></gadget>
+    <gadget type="button" name="pitchEdit-bias-90" size1024="112 685 147 705" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$STR_EDT_CHANGE$$Change" textfontsize="12">90<command>cameraPitchAngle(90.01) cameraZoomReset</command></gadget>
+    <gadget type="button" name="pitchEdit-bias-110" size1024="157 685 192 705" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$STR_EDT_CHANGE$$Change" textfontsize="12">110<command>cameraPitchAngle(110) cameraZoomReset</command></gadget>
+    <gadget type="button" name="pitchEdit-bias-135" size1024="202 685 237 705" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$STR_EDT_CHANGE$$Change" textfontsize="12">135<command>cameraPitchAngle(135) cameraZoomReset</command></gadget>
+    <gadget name="pitchEdit-limit" type="checkButton" configindex="cameraMovementLock" tooltiptext="$$STR_EDT_PTCAM_LK$$Locks camera to current view" textfontsize="12" textfont="Arial nobold nodrop" foreground="ui\ui_check" z="11" size1024="12 710 82 730">$$STR_EDT_VW_LK$$View Lock</gadget>
+    <gadget name="pitchEdit-rotate" type="checkButton" configindex="enableCameraRotation" textfontsize="12" textfont="Arial nobold nodrop" tooltiptext="$$STR_EDT_CAM_ALLOW_ROT$$Allow Camera Rotation" foreground="ui\ui_check" z="11" size1024="87 710 167 730">$$STR_EDT_CAM_RT$$Camera Rotate<command>cameraRotate</command></gadget>
+    <gadget type="checkbutton" name="pitchEdit-freeCam" size1024="182 710 252 730" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12">$$STR_EDT_CTS_FREE$$Free Cam<command>cameraLimit()</command></gadget>
+    <gadget type="button" name="pitchEdit-close" size1024="174 735 242 755" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$STR_EDT_CLOSE$$Close" textfontsize="12">$$STR_EDT_CLOSE$$Close<command>gadgetUnReal("PitchEditorGadget")</command></gadget>
+	<gadget name="zPitchHelp" type="button" size1024="150 737 168 753" tooltiptext="When Camera is Unlocked:  PgUp/PgDn to move camera up and down - Ctrl+Up/Down to pitch camera" foreground="controls\checkbox_question"></gadget>
+	<gadget name="zPitchRoll" type="textBox" textfont="Arial nodrop" textfontsize="12" textcolor="0 0 0" size1024="10 740 40 755">Roll Camera</gadget>
+	<gadget name="zRollLeft" type="button" size1024="45 742 60 757" tooltiptext="Roll Left" foreground="ui\undo"><command>cameraRollLeft(0)</command></gadget>
+	<gadget name="zRollStop" type="button" size1024="62 742 77 757" tooltiptext="Stop Rolling" foreground="controls\roundsmall_clicked"><command>cameraRollRight(1) cameraRollLeft(1)</command></gadget>
+	<gadget name="zRollRight" type="button" size1024="79 742 94 757" tooltiptext="Roll Right" foreground="ui\redo"><command>cameraRollRight(0)</command></gadget>
+  </gadget>
+</layout>
