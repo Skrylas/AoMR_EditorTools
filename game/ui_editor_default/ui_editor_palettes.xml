@@ -8967,8 +8967,8 @@
 <gadget type="textField" name="ztechAge" size1024="55 350 200 370" tooltiptext="Ages cannot be reset currently - Reset with Player Data Age Settings - Default age" textcolor="255 255 255" history="" bevel="">Age
 <dropdown command="editorSetTechStatus(MythicAgeHephaestus,False) editorSetTechStatus(HeroicAgeDionysus,False) editorSetTechStatus(ClassicalAgeAthena,False)">Archaic Age</dropdown>
 <dropdown command="editorSetTechStatus(MythicAgeHephaestus,False) editorSetTechStatus(HeroicAgeDionysus,False) editorSetTechStatus(ClassicalAgeAthena,True)">Classic Age</dropdown>
-<dropdown command="editorSetTechStatus(MythicAgeHephaestus,False) editorSetTechStatus(HeroicAgeDionysus,True)">Heroic Age</dropdown>
-<dropdown command="editorSetTechStatus(MythicAgeHephaestus,True)">Mythic Age</dropdown>
+<dropdown command="editorSetTechStatus(MythicAgeHephaestus,False) editorSetTechStatus(HeroicAgeDionysus,True) editorSetTechStatus(ClassicalAgeAthena,False)">Heroic Age</dropdown>
+<dropdown command="editorSetTechStatus(MythicAgeHephaestus,True) editorSetTechStatus(HeroicAgeDionysus,False) editorSetTechStatus(ClassicalAgeAthena,False)">Mythic Age</dropdown>
 <gadget name="PDataButton" type="button" size1024="202 352 217 368" tooltiptext="Player Data" foreground="ui\redo"><command>gadgetReal("PlayerEditDlg")</command></gadget>
 </gadget>
 </gadget>
