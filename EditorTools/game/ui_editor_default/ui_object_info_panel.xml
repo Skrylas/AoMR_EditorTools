@@ -1,5 +1,6 @@
 <layout>
   <gadget name="ObjectInfo" type="gadget" size1024="667 45 1013 543" background="background\editor_background" bevel="" titlebar="$$STR_EDT_OIP$$Object Info" closebutton="" moveable="" closeonesc="">
+    <gadget name="ObjectPicture" type="gadget" background="background\editor_background" size1024="936 75 1000 139"></gadget>
     <gadget name="InGameNameIndication" type="formatText" size1024="680 75 729 90" textcentervert="" textcolor="255 255 255" textfont="StatText" textfontsize="12" z="35">$$STR_EDT_OIP_NAME_C$$Name: </gadget>
     <gadget name="InGameName" type="formatText" size1024="730 75 1000 90" textcentervert="" textcolor="255 255 255" textfont="StatText" textfontsize="12" z="35">
     </gadget>
