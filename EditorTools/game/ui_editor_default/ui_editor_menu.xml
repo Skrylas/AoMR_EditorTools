@@ -87,6 +87,7 @@
       <submenu title="$$STR_EDT_A_VIEWER$$Animation Viewer" accelerator="A">gadgetReal("AnimationEditorGadget")</submenu>
       <submenu title="$$STR_EDT_GAR$$Garrison Editor" accelerator="G">gadgetReal("GarrisonEditorGadget")</submenu>
       <submenu title="$$STR_EDT_RED$$Relic Editor" accelerator="G">gadgetReal("RelicEditorGadget")</submenu>
+      <submenu title="$$STR_EDT_MODEL_CONVERT$$Model Convert Tool">openModelEditorTool()</submenu>																								  
       <submenu title="" separator="">
       </submenu>
       <submenu title="$$STR_EDT_IGN_PLC_RESTR$$Ignore Placement Restrictions" configindex="ignorePlacementRules" accelerator="R">
