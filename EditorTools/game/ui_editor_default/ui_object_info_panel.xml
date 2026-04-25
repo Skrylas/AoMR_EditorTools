@@ -61,5 +61,9 @@
     <gadget name="TriggerListIndication" type="formatText" size1024="678 350 766 375" textcentervert="" textfont="StatText" textfontsize="12" z="30" textmarkup="">$$STR_EDT_OIP_TRIGGERS$$Linked Triggers:</gadget>
     <gadget name="TriggerList" type="list" background="background\editor_background" sunkenbevel="" showselect="" selectedcolor="255 255 255" textfont="StatText" textfontsize="12" buttonsize1024="200 13" scrollvert="" size1024="766 350 1001 435">
     </gadget>
+    <gadget name="VisualVariation" type="formatText" size1024="820 207 1000 220" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+    </gadget>
+    <gadget name="VisualVariationSlider" type="slider" size1024="820 225 980 240">
+    </gadget>
   </gadget>
 </layout>
